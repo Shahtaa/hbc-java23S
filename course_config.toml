@@ -1,0 +1,657 @@
+course = "hbc-java23S"
+
+[exercises."osa01-Osa01_01.Hiekkalaatikko"]
+id = 223754
+checksum = "cb78336824109de610ce3d91d43a9954"
+
+[exercises."osa01-Osa01_02.AdaLovelace"]
+id = 223755
+checksum = "a1e32410741ff1096d854d9d8364b326"
+
+[exercises."osa01-Osa01_03.OlipaKerranOhjelma"]
+id = 223759
+checksum = "4c85a20d0e00d84f61321486c44d34be"
+
+[exercises."osa01-Osa01_04.OlipaKerranMaa"]
+id = 223760
+checksum = "dfa3d1282d2c341ea61c8a9d10284911"
+
+[exercises."osa01-Osa01_05.Viesti"]
+id = 223778
+checksum = "8aed96b6d440e85659c0a996c78616e7"
+
+[exercises."osa01-Osa01_06.HeiAdaLovelace"]
+id = 223782
+checksum = "e3301916da54b745123277d96895f884"
+
+[exercises."osa01-Osa01_07.ViestiKolmesti"]
+id = 223771
+checksum = "5a6daaa8c68d80270f2988096bb8d588"
+
+[exercises."osa01-Osa01_08.Tervehdys"]
+id = 223774
+checksum = "cb3633f418db2582ecdec645b5116b9b"
+
+[exercises."osa01-Osa01_09.Keskustelu"]
+id = 223752
+checksum = "13bf6eed685e9a8b6138efa1e82244e6"
+
+[exercises."osa01-Osa01_10.Tarina"]
+id = 223763
+checksum = "73b1988db909fd2390df29c0042adef6"
+
+[exercises."osa01-Osa01_11.MuuttuvatMuuttujat"]
+id = 223750
+checksum = "1cebb3a51430871a14032369e24019ec"
+
+[exercises."osa01-Osa01_12.KokonaisluvunLukeminen"]
+id = 223767
+checksum = "873131d1c6051997a59cb82273d508b9"
+
+[exercises."osa01-Osa01_13.LiukuluvunLukeminen"]
+id = 223762
+checksum = "6e308cb9ade435e8136f38c3aaac2e54"
+
+[exercises."osa01-Osa01_14.TotuusarvonLukeminen"]
+id = 223775
+checksum = "b97e67a8e01783986ed66173f6f04b8f"
+
+[exercises."osa01-Osa01_15.MuuttujienLukeminenYhdessa"]
+id = 223758
+checksum = "46be360f4f8378795402867df3c37579"
+
+[exercises."osa01-Osa01_16.SekunnitVuorokaudessa"]
+id = 223765
+checksum = "8380d9df2641c1b96c545c53ed233d0f"
+
+[exercises."osa01-Osa01_17.KahdenLuvunSumma"]
+id = 223785
+checksum = "bb82e099cfee7688f445bd7bcf532ae3"
+
+[exercises."osa01-Osa01_18.KolmenLuvunSumma"]
+id = 223751
+checksum = "e03564a41efeb85126110be8b32bd14c"
+
+[exercises."osa01-Osa01_19.YhteenlaskuJaKaava"]
+id = 223769
+checksum = "dd52c6200a82052b5089500328b6a1b5"
+
+[exercises."osa01-Osa01_20.KertolaskuJaKaava"]
+id = 223764
+checksum = "325d17460576392e12a5ae4007e9fa60"
+
+[exercises."osa01-Osa01_21.KahdenLuvunKeskiarvo"]
+id = 223777
+checksum = "b646c1fa3dd5cb2a205798137d686e7d"
+
+[exercises."osa01-Osa01_22.KolmenLuvunKeskiarvo"]
+id = 223770
+checksum = "503040dc8e4f3c18769b473b93af72b5"
+
+[exercises."osa01-Osa01_23.Nelilaskin"]
+id = 223783
+checksum = "4e94aab9e95201990c3adbaf05d4a7c4"
+
+[exercises."osa01-Osa01_24.Ylinopeussakko"]
+id = 223784
+checksum = "daeb3fce06d6ec53e1c9a6b3f7e6ae80"
+
+[exercises."osa01-Osa01_25.SisennysKuntoon"]
+id = 223761
+checksum = "9d7659ea4f4081f5cd4ca30de5f86136"
+
+[exercises."osa01-Osa01_26.Orwell"]
+id = 223768
+checksum = "00963f814be9d2b5068afc9d5313befd"
+
+[exercises."osa01-Osa01_27.Wanha"]
+id = 223749
+checksum = "92e5af121a0434e3b96821947e7b512e"
+
+[exercises."osa01-Osa01_28.PositiivinenLuku"]
+id = 223753
+checksum = "726f29d58a9d74940ffd7072d3d71955"
+
+[exercises."osa01-Osa01_29.TaysiIkaisyys"]
+id = 223766
+checksum = "ca0a58bd123593e68d7cc6e2dccb849a"
+
+[exercises."osa01-Osa01_30.SuurempiTaiYhtasuuri"]
+id = 223772
+checksum = "a626d6f30a20a5a9143dad57fd0726c4"
+
+[exercises."osa01-Osa01_31.ArvosanatJaPisteet"]
+id = 223781
+checksum = "b19b24d15f919206272bb0b7a8550411"
+
+[exercises."osa01-Osa01_32.ParitonVaiParillinen"]
+id = 223757
+checksum = "82abf60b8b4f60dff4a76136c129db5a"
+
+[exercises."osa01-Osa01_33.Tunnussana"]
+id = 223776
+checksum = "80b1b4d1852ec7db8c867d94ad5441de"
+
+[exercises."osa01-Osa01_34.SamatSanat"]
+id = 223756
+checksum = "f92254b5265e9043da2829e0b873b132"
+
+[exercises."osa01-Osa01_35.IanTarkistus"]
+id = 223773
+checksum = "e0f4d3408032b00c4c8a8e473aa5fec4"
+
+[exercises."osa01-Osa01_36.Karkausvuosi"]
+id = 223779
+checksum = "74a69baa7107ed1fc43a701874fe79fd"
+
+[exercises."osa01-Osa01_37.Lahjaverolaskuri"]
+id = 223780
+checksum = "62b0d23d7092a7ed985c2abb92f16806"
+
+[exercises."osa02-Osa02_01.ToiseenPotenssiin"]
+id = 223676
+checksum = "6d8b367abeed958c6f335d381e0833be"
+
+[exercises."osa02-Osa02_02.SummanNeliojuuri"]
+id = 223668
+checksum = "3ad8afdee8e932de8dacd156569dd749"
+
+[exercises."osa02-Osa02_03.Itseisarvo"]
+id = 223665
+checksum = "8c3c7340340f0229ec0ab4f359d8430e"
+
+[exercises."osa02-Osa02_04.TietoaLuvuista"]
+id = 223670
+checksum = "46afc3c1bcd10dacfc1ae6695bfa4359"
+
+[exercises."osa02-Osa02_05.Jatketaanko"]
+id = 223688
+checksum = "74c78f4a5fe5fcc442f0074c5006d7de"
+
+[exercises."osa02-Osa02_06.Uudestaan"]
+id = 223663
+checksum = "3a1c57ed68ca5051bc60dc7a2a80adbe"
+
+[exercises."osa02-Osa02_07.SyotteidenRajaus"]
+id = 223675
+checksum = "bf1422da1e835929c8f41d74594d5389"
+
+[exercises."osa02-Osa02_08.LukujenLukumaara"]
+id = 223680
+checksum = "fbef31fc1f0bd1d2534e2daa3863cc5e"
+
+[exercises."osa02-Osa02_09.NegatiivistenLukujenMaara"]
+id = 223679
+checksum = "8ce3a19a407b4704ef481b09ec8e6168"
+
+[exercises."osa02-Osa02_10.LukujenSumma"]
+id = 223666
+checksum = "0f72e870d4209eb1ba33d67b33d17019"
+
+[exercises."osa02-Osa02_11.LukumaaraJaSumma"]
+id = 223673
+checksum = "b3993d7e08fecdc25158ae50e78a96d1"
+
+[exercises."osa02-Osa02_12.LukujenKeskiarvo"]
+id = 223685
+checksum = "61c877aa872c85c299fe52d9a33ec2f4"
+
+[exercises."osa02-Osa02_13.PositiivistenLukujenKeskiarvo"]
+id = 223695
+checksum = "7645cb3ee221fcae1ede38cda79392ac"
+
+[exercises."osa02-Osa02_14.NollastaLukuun"]
+id = 223690
+checksum = "592a14e4c40d4d84bfc9771ed1e9048a"
+
+[exercises."osa02-Osa02_15.LuvustaSataan"]
+id = 223686
+checksum = "34761773032a5cff0f9c890ca2df62f0"
+
+[exercises."osa02-Osa02_16.MihinJaMista"]
+id = 223687
+checksum = "39e6dee3baf83595574d946880349b78"
+
+[exercises."osa02-Osa02_17.LukusarjanSumma"]
+id = 223678
+checksum = "3397b645019b55cfc0711d168edf141f"
+
+[exercises."osa02-Osa02_18.RajatunLukusarjanSumma"]
+id = 223691
+checksum = "a52a81869bde5dfb22f65148b48d9310"
+
+[exercises."osa02-Osa02_19.Kertoma"]
+id = 223674
+checksum = "4df33899fd48cbfa96024f2870815d12"
+
+[exercises."osa02-Osa02_20.SilmukatLopetusJaMuistaminen"]
+id = 223684
+checksum = "ac6dd164826f71f3c87d489d7c1a8096"
+
+[exercises."osa02-Osa02_21.TekstinTulostus"]
+id = 223664
+checksum = "f6e67e984147939ef7f37a4b7a18cb94"
+
+[exercises."osa02-Osa02_22.MontaTulostusta"]
+id = 223677
+checksum = "f2ba8181b7496d792675215e6b51ed6d"
+
+[exercises."osa02-Osa02_23.YhdestaParametriin"]
+id = 223672
+checksum = "e8386bae6419930d204e71027ab9a9eb"
+
+[exercises."osa02-Osa02_24.ParametristaYhteen"]
+id = 223689
+checksum = "3ded39fc13a0c4c0e1be185fa1df0764"
+
+[exercises."osa02-Osa02_25.Jakolasku"]
+id = 223696
+checksum = "f24b95c20c9bb2b11dd3ada5dca4328f"
+
+[exercises."osa02-Osa02_26.KolmellaJaolliset"]
+id = 223667
+checksum = "671decb8ebe24db26e2e4255ff29c4ae"
+
+[exercises."osa02-Osa02_27.NumeroUno"]
+id = 223671
+checksum = "a12c003bda0d14d0f41e6174d52be730"
+
+[exercises."osa02-Osa02_28.Merkkijono"]
+id = 223694
+checksum = "ae9be3f3c78b1d14332a944afb96d3c7"
+
+[exercises."osa02-Osa02_29.LukujenSumma"]
+id = 223669
+checksum = "375df804571c8eb38222991da10e1449"
+
+[exercises."osa02-Osa02_30.Pienin"]
+id = 223693
+checksum = "3cb35b2eca8586afcc42a18828a176d5"
+
+[exercises."osa02-Osa02_31.Suurin"]
+id = 223682
+checksum = "a6716661dab04848159bd4de8b762ff7"
+
+[exercises."osa02-Osa02_32.LukujenKeskiarvo"]
+id = 223681
+checksum = "228f172542d85febe5792e1895dcbd08"
+
+[exercises."osa02-Osa02_33.Tulostelua"]
+id = 223692
+checksum = "c355b813e9a0f05cfa2b08e5b1233fe5"
+
+[exercises."osa02-Osa02_34.TulosteluaLikeABoss"]
+id = 223683
+checksum = "d2df9430bc183389f00ceca2c04321cb"
+
+[exercises."osa03-Osa03_01.KolmannenArvonTulostaminen"]
+id = 223800
+checksum = "385fa6475cacc26cadb4d3fd7dbc7e8b"
+
+[exercises."osa03-Osa03_02.ToisenJaKolmannenSumma"]
+id = 223801
+checksum = "528014c738fbb539d3e0dd2856e18934"
+
+[exercises."osa03-Osa03_03.IndexOutOfBoundsException"]
+id = 223799
+checksum = "557c04741aa3a16d99435755f573bbec"
+
+[exercises."osa03-Osa03_04.ListanKoko"]
+id = 223805
+checksum = "e4d524b736b92c7622601776de837ba3"
+
+[exercises."osa03-Osa03_05.ListanViimeinenArvo"]
+id = 223812
+checksum = "4ba0f8b369ea00b76919f8fe19e99411"
+
+[exercises."osa03-Osa03_06.EnsimmainenJaViimeinenArvo"]
+id = 223789
+checksum = "27f6f75d3c9fc936e8a9931e695951a8"
+
+[exercises."osa03-Osa03_07.ListanLuvut"]
+id = 223816
+checksum = "ea8ae87d45d70e43e4bcc5c1ee8afaad"
+
+[exercises."osa03-Osa03_08.LuvutRajatullaAlueella"]
+id = 223798
+checksum = "178d8be06f7c57a11bdbb818972aceef"
+
+[exercises."osa03-Osa03_09.ListanSuurinLuku"]
+id = 223810
+checksum = "cc042d7329e81482c84b60a544a463d2"
+
+[exercises."osa03-Osa03_10.KysytynLuvunIndeksi"]
+id = 223802
+checksum = "24056470bfe2c72f534218189bcba347"
+
+[exercises."osa03-Osa03_11.PienimmanLuvunIndeksi"]
+id = 223788
+checksum = "87164ca302ac5fabc6c01a3b8d69c16f"
+
+[exercises."osa03-Osa03_12.ListanLukujenSumma"]
+id = 223793
+checksum = "775741f04ac3608167653c01bb60b4b4"
+
+[exercises."osa03-Osa03_13.ListanLukujenKeskiarvo"]
+id = 223804
+checksum = "8846ec45a394c526e45d1da22076f6ae"
+
+[exercises."osa03-Osa03_14.LoytyykoListalta"]
+id = 223817
+checksum = "02551f933c68d6107cceaa687b4cfc42"
+
+[exercises."osa03-Osa03_15.TulostaRajatut"]
+id = 223815
+checksum = "5fca566024729308487e2bfef8bcd417"
+
+[exercises."osa03-Osa03_16.Summa"]
+id = 223807
+checksum = "54d10d57d60aedcb5adf202f63128145"
+
+[exercises."osa03-Osa03_17.PoistaViimeinen"]
+id = 223803
+checksum = "94f60e06a7faad49d3ec4a7194dc2101"
+
+[exercises."osa03-Osa03_18.AlkioidenArvojenVaihtaminen"]
+id = 223808
+checksum = "d70dde9ba763f1c477dc15e61dc51657"
+
+[exercises."osa03-Osa03_19.EtsitynAlkionIndeksi"]
+id = 223813
+checksum = "97d2827db22b296f8e9bc9accb18a79d"
+
+[exercises."osa03-Osa03_20.TaulukonLukujenSumma"]
+id = 223796
+checksum = "893e25f0f30a52e1c66e538821417bb9"
+
+[exercises."osa03-Osa03_21.TyylikasTulostus"]
+id = 223795
+checksum = "8d7a1b806dfb0ad1647cb0eeca6e36ee"
+
+[exercises."osa03-Osa03_22.TaulukkoTahtina"]
+id = 223786
+checksum = "c5c11adc6d29d5e203f200d65571e216"
+
+[exercises."osa03-Osa03_23.TulostusKolmesti"]
+id = 223814
+checksum = "6594e2b14f2563b1159153e9ee99ccc7"
+
+[exercises."osa03-Osa03_24.OnkoTotta"]
+id = 223811
+checksum = "053003818fad5c11948f0ee898edb2ab"
+
+[exercises."osa03-Osa03_25.Kayttajatunnukset"]
+id = 223790
+checksum = "fbd09cccdbdabe66f5ebd7e2d24f8a72"
+
+[exercises."osa03-Osa03_26.SanatRiveittain"]
+id = 223806
+checksum = "f26a7f45f3f5529ea4f7202f4837b637"
+
+[exercises."osa03-Osa03_27.TietytSanatRiveittain"]
+id = 223787
+checksum = "f7e7f3a2227b29d33645708a58b26a71"
+
+[exercises."osa03-Osa03_28.EnsimmaisetSanat"]
+id = 223791
+checksum = "d0d240bc0512a41405c45d144a1fa564"
+
+[exercises."osa03-Osa03_29.ViimeisetSanat"]
+id = 223797
+checksum = "3cc63d433c4e5224fbe03deee59af4ca"
+
+[exercises."osa03-Osa03_30.VanhimmanIka"]
+id = 223792
+checksum = "dfa05d171198fa898c6813b096bb58a0"
+
+[exercises."osa03-Osa03_31.VanhimmanNimi"]
+id = 223794
+checksum = "f2629bed1ca0fed67e3f53fa96157208"
+
+[exercises."osa03-Osa03_32.HenkilotietojenTarkastelu"]
+id = 223809
+checksum = "e7043646a1c1d2bd73ae6c4601b55758"
+
+[exercises."osa04-Osa04_01.EnsimmainenTilisi"]
+id = 223610
+checksum = "da2466fbc6255e59eae380b52b1a889c"
+
+[exercises."osa04-Osa04_02.EnsimmainenTilisiirtosi"]
+id = 223588
+checksum = "3e6673920e706305b1c61678d34eaf09"
+
+[exercises."osa04-Osa04_03.KoiranOminaisuudet"]
+id = 223590
+checksum = "4bc827241c87fe478489c2fc14d283dd"
+
+[exercises."osa04-Osa04_04.Huone"]
+id = 223611
+checksum = "bfeebaba902877ea2e30aaab839d9ce4"
+
+[exercises."osa04-Osa04_05.Pilli"]
+id = 223584
+checksum = "7da0bc14ff848bf36d8852076123d460"
+
+[exercises."osa04-Osa04_06.Ovi"]
+id = 223601
+checksum = "08e5224268f20378d0f8f59d45927185"
+
+[exercises."osa04-Osa04_07.Tuote"]
+id = 223592
+checksum = "16e684a57697cdaa0739c971d145c467"
+
+[exercises."osa04-Osa04_08.VahenevaLaskuri"]
+id = 223586
+checksum = "04d0c8b8ad20687a7c762c490c1eba8e"
+
+[exercises."osa04-Osa04_09.Velka"]
+id = 223589
+checksum = "11cc8468fc860d0226039387030aca83"
+
+[exercises."osa04-Osa04_10.Musiikkikappale"]
+id = 223582
+checksum = "132c5ea3a4e7b6e40f86e6f8b242d7f5"
+
+[exercises."osa04-Osa04_11.Elokuva"]
+id = 223603
+checksum = "a9e8d82c7af3a3d36d2d29b127805337"
+
+[exercises."osa04-Osa04_12.Mittari"]
+id = 223600
+checksum = "362b42f5848c787daed56e4afa93eb9b"
+
+[exercises."osa04-Osa04_13.Agentti"]
+id = 223609
+checksum = "b047af26e65461415dad1f73ca4a1b35"
+
+[exercises."osa04-Osa04_14.Kertoja"]
+id = 223608
+checksum = "06a5b276d5aa24a9550e5decce2aaf73"
+
+[exercises."osa04-Osa04_15.Lukutilasto"]
+id = 223585
+checksum = "b8ec1988c3fcc3b6f84e8cb9a7ead1ab"
+
+[exercises."osa04-Osa04_16.Maksukortti"]
+id = 223602
+checksum = "f55c8bec84dd364cf63946355c8945ff"
+
+[exercises."osa04-Osa04_17.Esineet"]
+id = 223587
+checksum = "1116f8311d6571edf5fd82857ebd3349"
+
+[exercises."osa04-Osa04_18.Henkilotiedot"]
+id = 223593
+checksum = "1f8af17ae85b8fd2a56e179203ede7c6"
+
+[exercises."osa04-Osa04_19.TelevisioOhjelmat"]
+id = 223591
+checksum = "f8784e1604eed415ac0ba84bec602022"
+
+[exercises."osa04-Osa04_20.Kirjat"]
+id = 223612
+checksum = "30e27c3229ef8944b69b07cd466b2421"
+
+[exercises."osa04-Osa04_21.MerkkijonojenLukumaara"]
+id = 223606
+checksum = "859ba5ef01384c1a4d452213d7f610a7"
+
+[exercises."osa04-Osa04_22.Kuutiot"]
+id = 223605
+checksum = "c1767fa6e4d48bc3a63830e34a33ba33"
+
+[exercises."osa04-Osa04_23.UudenTiedostonLuominen"]
+id = 223598
+checksum = "d784e9a55d737d5af705247217fe3b95"
+
+[exercises."osa04-Osa04_24.TiedostonTulostaminen"]
+id = 223594
+checksum = "cd2e7a3fa2b422bea4cbe140e61b053f"
+
+[exercises."osa04-Osa04_25.KysytynTiedostonTulostaminen"]
+id = 223607
+checksum = "4a9c28e0671e84ade123067ddcde5299"
+
+[exercises."osa04-Osa04_26.VieraslistaTiedostosta"]
+id = 223595
+checksum = "4d2ae76a3226545e2bc8188d21b361cf"
+
+[exercises."osa04-Osa04_27.LoytyykoTiedostosta"]
+id = 223604
+checksum = "5844c62d318ce24bab4a2d3d70132373"
+
+[exercises."osa04-Osa04_28.MittauksetTiedostosta"]
+id = 223583
+checksum = "936704acbea9d3ef0531764824c33099"
+
+[exercises."osa04-Osa04_29.TiedotTiedostosta"]
+id = 223599
+checksum = "a487945e32b217e1c0aa95eb487a5acd"
+
+[exercises."osa04-Osa04_30.HenkilotTiedostosta"]
+id = 223597
+checksum = "2b7b06429d6a934aa9d4209e1abe9084"
+
+[exercises."osa04-Osa04_31.Urheilutilastot"]
+id = 223596
+checksum = "3b56d9c6f98a2cde73d42322e301b41c"
+
+[exercises."osa05-Osa05_01.Sekuntikello"]
+id = 223711
+checksum = "d30f79f48810fa077cdad362b717278b"
+
+[exercises."osa05-Osa05_02.Kirja"]
+id = 223712
+checksum = "13e90c9fec009f38b564e70e4d2850b7"
+
+[exercises."osa05-Osa05_03.Kuutio"]
+id = 223708
+checksum = "af6f906e97965b1b444a75d50379a7e4"
+
+[exercises."osa05-Osa05_04.Harjoitusapuri"]
+id = 223702
+checksum = "2307a450684eebe262ea49215934602c"
+
+[exercises."osa05-Osa05_05.MontaKonstruktoria"]
+id = 223707
+checksum = "27ac14ba383095be1618693902a557b7"
+
+[exercises."osa05-Osa05_06.KuormitettuLaskuri"]
+id = 223706
+checksum = "7741ff528abb438fdcc5ad4fe882620b"
+
+[exercises."osa05-Osa05_07.NullPointerException"]
+id = 223705
+checksum = "25cdaeaabb0f2df00ab207232678b154"
+
+[exercises."osa05-Osa05_08.HenkiloJaLemmikki"]
+id = 223701
+checksum = "ca10a3278d47c71c055822ab99a99aca"
+
+[exercises."osa05-Osa05_09.Kasvatuslaitos"]
+id = 223709
+checksum = "c6ba196a30fe1da3db3e244e164168dd"
+
+[exercises."osa05-Osa05_10.MaksukorttiJaKassapaate"]
+id = 223700
+checksum = "d039c8d3847d597298e7372f486fbd26"
+
+[exercises."osa05-Osa05_11.Asuntovertailu"]
+id = 223713
+checksum = "5c19304bdd98274397848237e9663d40"
+
+[exercises."osa05-Osa05_12.Kappale"]
+id = 223704
+checksum = "28ae8d3715d294889b9d5a3d70edee99"
+
+[exercises."osa05-Osa05_13.Henkilovertailu"]
+id = 223697
+checksum = "b70606f29e854422fc047f3b35937dcd"
+
+[exercises."osa05-Osa05_14.Kirjat"]
+id = 223703
+checksum = "26003e8aff2b5d9b520e3828e8089f39"
+
+[exercises."osa05-Osa05_15.KerailijanVarasto"]
+id = 223710
+checksum = "1095e185d5f31c28f0cc3b95be9445e4"
+
+[exercises."osa05-Osa05_16.Paivays"]
+id = 223699
+checksum = "7350e9d0e70851d8ab4ed0e834c41acb"
+
+[exercises."osa05-Osa05_17.Raha"]
+id = 223698
+checksum = "3f631feab81b624802b220efa67be0ac"
+
+[exercises."osa06-Osa06_01.Ruokalista"]
+id = 223823
+checksum = "dfa617f28a7c8e0205b8edf0d81c0c18"
+
+[exercises."osa06-Osa06_02.Pakka"]
+id = 223820
+checksum = "7e28c59adde803e1850ec3b73edad0b3"
+
+[exercises."osa06-Osa06_03.Viestipalvelu"]
+id = 223828
+checksum = "19f2a3c60cfb91568653673bd7315e62"
+
+[exercises."osa06-Osa06_04.JoukonTulostaminen"]
+id = 223829
+checksum = "05c168b8f6ebffe6f6f545353f0cc2e2"
+
+[exercises."osa06-Osa06_05.Lahjapakkaamo"]
+id = 223821
+checksum = "3896187d47323062bab631d276d83a37"
+
+[exercises."osa06-Osa06_06.JoukonPisin"]
+id = 223818
+checksum = "abc400635cda3c8243141cb9fbc1ac02"
+
+[exercises."osa06-Osa06_07.Pituusjarjestys"]
+id = 223830
+checksum = "d7f083e612ccbd04bc1294c7a328a4a5"
+
+[exercises."osa06-Osa06_08.TavaraMatkalaukkuJaLastiruuma"]
+id = 223819
+checksum = "8086efd4d1a11ba4506bc64aafbee914"
+
+[exercises."osa06-Osa06_09.Sanakirja"]
+id = 223825
+checksum = "d360fa6e589c5b3760029bf081b557b8"
+
+[exercises."osa06-Osa06_10.Tehtavalista"]
+id = 223824
+checksum = "de824eebef6d358d043d08523d7e09de"
+
+[exercises."osa06-Osa06_11.Keskiarvot"]
+id = 223826
+checksum = "1d4b5cdb084512bb73c259972b112fe0"
+
+[exercises."osa06-Osa06_12.Vitsipankki"]
+id = 223822
+checksum = "0aba566a15071b980cc095a738ef9a29"
+
+[exercises."osa06-Osa06_13.Tehtavat"]
+id = 223827
+checksum = "95e593366e09ede9ee92022d164f8cf3"
