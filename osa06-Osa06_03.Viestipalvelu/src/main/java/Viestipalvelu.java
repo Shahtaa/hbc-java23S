@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 
 public class Viestipalvelu {
-
     private ArrayList<String> viestit;
 
     public Viestipalvelu() {
@@ -13,6 +12,7 @@ public class Viestipalvelu {
     }
 
     public void lisaa(Viesti viesti) {
+
         this.viestit.add(viesti);
     }
 
