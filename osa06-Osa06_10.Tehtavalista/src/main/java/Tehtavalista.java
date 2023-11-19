@@ -19,7 +19,6 @@ public class Tehtavalista {
     }
 
     public void poista(int numero) {
-
-        this.tehtavat.remove(tehtavat.get(numero));
+        this.tehtavat.remove(numero - 1);
     }
 }
