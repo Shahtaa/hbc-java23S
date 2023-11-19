@@ -10,10 +10,16 @@ public class Sanakirja {
     }
 
     public String kaanna(String sana) {
-        return this.kaannokset.get(sana);
+
+        if (kaannokset.containsKey(sana)) {
+            return kaannokset.get(sana);
+        } else {
+            return "Sanaa " + sana + " ei löydy";
+        }
     }
 
     public void lisaa(String sana, String kaannos) {
+
         this.kaannokset.put(sana, kaannos);
     }
 }
