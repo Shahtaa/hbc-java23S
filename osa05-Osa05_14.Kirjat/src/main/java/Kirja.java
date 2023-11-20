@@ -1,14 +1,11 @@
-import java.util.ArrayList;
+
 
 public class Kirja {
     private String nimi;
     private int julkaisuvuosi;
-private ArrayList<String> kirjat;
-
     public Kirja(String nimi, int julkaisuvuosi) {
         this.nimi = nimi;
         this.julkaisuvuosi = julkaisuvuosi;
-        this.kirjat= new ArrayList<>();
     }
 
     public String getNimi() {

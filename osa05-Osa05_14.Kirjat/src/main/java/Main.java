@@ -14,22 +14,22 @@ public class Main {
             if (nimi.isEmpty()) {
                 break;
 
-            } else {
-               
-                System.out.println("Syötä kirjan julkaisuvuosi.");
-                int julkaisuvuosi = Integer.valueOf(lukija.nextLine());
-               
-                Kirja kirja = new Kirja(nimi, julkaisuvuosi);
-               if (!(kirjat.contains(kirja))){
-                    kirjat.add(kirja);
-               }
-                
             }
-
+  
+ 
+            System.out.println("Syötä kirjan julkaisuvuosi.");
+            int julkaisuvuosi = Integer.valueOf(lukija.nextLine());
+            Kirja kirja = new Kirja(nimi, julkaisuvuosi);
+ 
+            if (kirjat.contains(kirja)) {
+                System.out.println("Kirja on jo listalla. Ei lisätä samaa kirjaa uudestaan.");
+            } else {
+                kirjat.add(kirja);
+            }
         }
-
+        
         // Huom! Älä muuta tätä tulostusta!
         System.out.println("Kiitos! Kirjoja lisätty: " + kirjat.size());
-
     }
 }
+ 
