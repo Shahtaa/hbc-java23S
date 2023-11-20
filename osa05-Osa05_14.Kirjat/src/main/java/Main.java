@@ -14,15 +14,16 @@ public class Main {
             if (nimi.isEmpty()) {
                 break;
 
-            } else if (kirjat.contains(nimi)) {
-                System.out.println("");
             } else {
+               
                 System.out.println("Syötä kirjan julkaisuvuosi.");
                 int julkaisuvuosi = Integer.valueOf(lukija.nextLine());
-
+               
                 Kirja kirja = new Kirja(nimi, julkaisuvuosi);
-
-                kirjat.add(kirja);
+               if (!(kirjat.contains(kirja))){
+                    kirjat.add(kirja);
+               }
+                
             }
 
         }

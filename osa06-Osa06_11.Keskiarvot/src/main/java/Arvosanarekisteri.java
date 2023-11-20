@@ -41,19 +41,15 @@ public class Arvosanarekisteri {
 
     }
 
-    public double koepisteidenKeskiarvo(int pisteet) {
-        double keskiarvo = 0;
+    public double koepisteidenKeskiarvo() {
         if (this.arvosanat.isEmpty()) {
             return -1;
         } else {
-            this.arvosanat.add(pisteet);
-            int sum = 0;
-            for (int i = 0; i < arvosanat.size(); i++) {
-                sum += arvosanat.get(i);
+            for (Integer integer : arvosanat) {
+                return integer.;
             }
-            keskiarvo = sum * 1.0 / arvosanat.size();
 
-            return keskiarvo;
+            return 1;
         }
 
     }
