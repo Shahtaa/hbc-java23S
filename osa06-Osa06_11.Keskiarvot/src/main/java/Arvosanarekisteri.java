@@ -24,6 +24,40 @@ public class Arvosanarekisteri {
         return lkm;
     }
 
+    public double arvosanojenKeskiarvo() {
+        double keskiarvo = 0;
+        if (this.arvosanat.isEmpty()) {
+            return -1;
+        } else {
+
+            int sum = 0;
+            for (int i = 0; i < arvosanat.size(); i++) {
+                sum += arvosanat.get(i);
+            }
+            keskiarvo = sum * 1.0 / arvosanat.size();
+
+            return keskiarvo;
+        }
+
+    }
+
+    public double koepisteidenKeskiarvo(int pisteet) {
+        double keskiarvo = 0;
+        if (this.arvosanat.isEmpty()) {
+            return -1;
+        } else {
+            this.arvosanat.add(pisteet);
+            int sum = 0;
+            for (int i = 0; i < arvosanat.size(); i++) {
+                sum += arvosanat.get(i);
+            }
+            keskiarvo = sum * 1.0 / arvosanat.size();
+
+            return keskiarvo;
+        }
+
+    }
+
     public static int pisteetArvosanaksi(int pisteet) {
 
         int arvosana = 0;
