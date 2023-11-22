@@ -12,18 +12,19 @@ public class Main {
             String nimi = lukija.nextLine();
             if (nimi.isEmpty()) {
                 break;
-
-            }
-            if (esineet.contains(nimi)) {
-                System.out.println("");
             }
             System.out.println("Syötä esineen tunnus, tyhjä lopettaa.");
             String tunnus = lukija.nextLine();
+            if (tunnus.isEmpty()) {
+                break;
 
+            }
             Esine esine = new Esine(nimi, tunnus);
-
-            esineet.add(esine);
-
+            if (esineet.contains(esine)) {
+                System.out.println("Kirja on jo listalla. Ei lisätä samaa kirjaa uudestaan.");
+            } else {
+                esineet.add(esine);
+            }
         }
         System.out.println("==Esineet==");
         for (Esine esine : esineet) {

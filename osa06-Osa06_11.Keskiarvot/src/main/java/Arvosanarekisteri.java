@@ -44,13 +44,8 @@ public class Arvosanarekisteri {
     public double koepisteidenKeskiarvo() {
         if (this.arvosanat.isEmpty()) {
             return -1;
-        } else {
-            for (Integer integer : arvosanat) {
-                return integer.;
-            }
-
-            return 1;
         }
+        return 0;
 
     }
 

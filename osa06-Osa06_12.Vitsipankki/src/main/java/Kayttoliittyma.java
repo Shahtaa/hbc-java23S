@@ -1,17 +1,17 @@
-
-import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Ohjelma {
+public class Kayttoliittyma {
+    private Vitsipankki pankki;
+    private Scanner lukija;
 
-    public static void main(String[] args) {
+    public Kayttoliittyma(Vitsipankki pankki, Scanner lukija) {
+        this.pankki = pankki;
+        this.lukija = lukija;
+    }
 
-        Scanner lukija = new Scanner(System.in);
-        ArrayList<String> vitsit = new ArrayList<>();
-        System.out.println("Voihan vitsi!");
-
-        while (true) {
+    public void kaynnista() {
+          while (true) {
             System.out.println("Komennot:");
             System.out.println(" 1 - lisää vitsi");
             System.out.println(" 2 - arvo vitsi");
@@ -45,7 +45,6 @@ public class Ohjelma {
                     System.out.println(vitsi);
                 }
             }
-        }
-
     }
+
 }
