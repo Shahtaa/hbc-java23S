@@ -12,10 +12,27 @@ public class Paivays {
     }
 
     public void etene() {
-        if (this.paiva < 30) {
-            this.paiva = this.paiva + 1;
+        this.paiva++;
+        if (this.paiva > 30) {
+            this.paiva = 1;
+            this.kuukausi++;
+            if (this.kuukausi > 12) {
+                this.kuukausi = 1;
+                this.vuosi++;
+            }
         }
+    }
 
+    public void etene(int montakoPaivaa) {
+        for (int i = 0; i < montakoPaivaa; i++) {
+            etene();
+        }
+    }
+
+    public Paivays paivienPaasta(int paivia) {
+        Paivays uusiPaivays = new Paivays(this.paiva, this.kuukausi, this.vuosi);
+        uusiPaivays.etene(paivia);
+        return uusiPaivays;
     }
 
     @Override
