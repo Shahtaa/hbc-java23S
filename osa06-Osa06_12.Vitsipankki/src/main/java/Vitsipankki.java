@@ -3,33 +3,33 @@ import java.util.Random;
 
 public class Vitsipankki {
 
-    private ArrayList<String> vitsit;
+    private ArrayList<String> pankki;
 
     public Vitsipankki() {
-        this.vitsit = new ArrayList<>();
+        this.pankki = new ArrayList<>();
     }
 
     public void lisaaVitsi(String vitsi) {
 
-        this.vitsit.add(vitsi);
+        this.pankki.add(vitsi);
     }
 
     public String arvoVitsi() {
-        if (vitsit.isEmpty()) {
+        if (pankki.isEmpty()) {
             return "Vitsit vähissä.";
         } else {
 
             Random rand = new Random();
-            return vitsit.get(rand.nextInt(vitsit.size()));
+            return pankki.get(rand.nextInt(pankki.size()));
         }
 
     }
 
     public void tulostaVitsit() {
 
-        for (String string : vitsit) {
+        for (String string : pankki) {
             System.out.println(string);
-            ;
+
         }
     }
 }
