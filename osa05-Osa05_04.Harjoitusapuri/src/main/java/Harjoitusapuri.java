@@ -8,7 +8,8 @@ public class Harjoitusapuri {
     }
 
     public double tavoitesyke(double prosenttiaMaksimista) {
-        double maksimisyke = 206.3 - (0.711 * this.ika);
-        return (maksimisyke - leposyke) * (tavoitesyke(prosenttiaMaksimista)) + leposyke;
+        double maksimisyke = (206.3 - (0.711 * ika));
+        return (maksimisyke - leposyke) * (prosenttiaMaksimista) + leposyke;
+
     }
 }
