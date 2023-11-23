@@ -20,9 +20,8 @@ public class Main {
 
             }
             Esine esine = new Esine(nimi, tunnus);
-            if (esineet.contains(esine)) {
-                System.out.println("Kirja on jo listalla. Ei lisätä samaa kirjaa uudestaan.");
-            } else {
+            if (!(esineet.contains(esine))) {
+
                 esineet.add(esine);
             }
         }
