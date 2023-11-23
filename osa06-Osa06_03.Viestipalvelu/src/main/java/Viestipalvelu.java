@@ -1,23 +1,21 @@
 import java.util.ArrayList;
 
 public class Viestipalvelu {
-    private ArrayList<String> viestit;
+
+    private ArrayList<Viesti> viestit;
 
     public Viestipalvelu() {
         this.viestit = new ArrayList<>();
     }
 
     public ArrayList<Viesti> getViestit() {
-        return viestit;
+        return this.viestit;
     }
 
     public void lisaa(Viesti viesti) {
+        if (viesti.getSisalto().length() <= 280) {
+            this.viestit.add(viesti);
+        }
 
-        this.viestit.add(viesti);
     }
-
-    public String toString() {
-        return this.viestit + ", pituusalaraj";
-    }
-
 }

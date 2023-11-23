@@ -12,11 +12,11 @@ public class Viesti {
     }
 
     public String getLahettaja() {
-        return this.lahettaja;
+        return lahettaja;
     }
 
     public String getSisalto() {
-        return this.sisalto;
+        return sisalto;
     }
 
     public String toString() {
