@@ -1,20 +1,19 @@
-
 import java.util.Scanner;
 
 public class Kayttoliittyma {
 
-    private Arvosanarekisteri rekisteri;
     private Scanner lukija;
+    private Arvosanarekisteri rekisteri;
 
     public Kayttoliittyma(Arvosanarekisteri rekisteri, Scanner lukija) {
         this.rekisteri = rekisteri;
         this.lukija = lukija;
+
     }
 
     public void kaynnista() {
         lueKoepisteet();
         System.out.println("");
-        tulostaArvosanajakauma();
     }
 
     public void lueKoepisteet() {
@@ -33,26 +32,6 @@ public class Kayttoliittyma {
             }
 
             this.rekisteri.lisaaArvosanaPisteidenPerusteella(pisteet);
-        }
-    }
-
-    public void tulostaArvosanajakauma() {
-        int arvosana = 5;
-        while (arvosana >= 0) {
-            int tahtia = rekisteri.montakoSaanutArvosanan(arvosana);
-            System.out.print(arvosana + ": ");
-            tulostaTahtia(tahtia);
-            System.out.println("");
-
-            arvosana = arvosana - 1;
-        }
-        
-    }
-
-    public static void tulostaTahtia(int tahtia) {
-        while (tahtia > 0) {
-            System.out.print("*");
-            tahtia--;
         }
     }
 }

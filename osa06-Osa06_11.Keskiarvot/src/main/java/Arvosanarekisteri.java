@@ -44,9 +44,10 @@ public class Arvosanarekisteri {
     public double koepisteidenKeskiarvo() {
         if (this.arvosanat.isEmpty()) {
             return -1;
-        }
-        return 0;
+        } else {
+            return 0;
 
+        }
     }
 
     public static int pisteetArvosanaksi(int pisteet) {
