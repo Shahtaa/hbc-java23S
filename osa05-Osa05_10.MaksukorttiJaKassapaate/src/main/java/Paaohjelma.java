@@ -1,18 +1,21 @@
 public class Paaohjelma {
     public static void main(String[] args) {
         Kassapaate unicafeExactum = new Kassapaate();
+        System.out.println(unicafeExactum);
 
-        double vaihtorahaa = unicafeExactum.syoEdullisesti(10);
-        System.out.println("vaihtorahaa jäi " + vaihtorahaa);
+        Maksukortti antinKortti = new Maksukortti(2);
 
-        Maksukortti antinKortti = new Maksukortti(7);
+        System.out.println("kortilla rahaa " + antinKortti.saldo() + " euroa");
 
         boolean onnistuiko = unicafeExactum.syoMaukkaasti(antinKortti);
         System.out.println("riittikö raha: " + onnistuiko);
+
+        unicafeExactum.lataaRahaaKortille(antinKortti, 100);
+
         onnistuiko = unicafeExactum.syoMaukkaasti(antinKortti);
         System.out.println("riittikö raha: " + onnistuiko);
-        onnistuiko = unicafeExactum.syoEdullisesti(antinKortti);
-        System.out.println("riittikö raha: " + onnistuiko);
+
+        System.out.println("kortilla rahaa " + antinKortti.saldo() + " euroa");
 
         System.out.println(unicafeExactum);
     }

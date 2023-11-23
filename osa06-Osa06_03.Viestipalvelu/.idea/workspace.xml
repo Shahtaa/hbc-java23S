@@ -5,15 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec7ed27f-8115-4c11-9c1d-2c02dd965e75" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Viesti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Viesti.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Viestipalvelu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Viestipalvelu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Viestipalvelu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../osa06-Osa06_10.Tehtavalista/target/classes/Kayttoliittyma.class" beforeDir="false" afterPath="$PROJECT_DIR$/../osa06-Osa06_10.Tehtavalista/target/classes/Kayttoliittyma.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../osa06-Osa06_10.Tehtavalista/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../osa06-Osa06_10.Tehtavalista/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../osa06-Osa06_10.Tehtavalista/target/classes/Tehtavalista.class" beforeDir="false" afterPath="$PROJECT_DIR$/../osa06-Osa06_10.Tehtavalista/target/classes/Tehtavalista.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../osa06-Osa06_10.Tehtavalista/target/test-classes/TehtavalistaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../osa06-Osa06_10.Tehtavalista/target/test-classes/TehtavalistaTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../osa05-Osa05_10.MaksukorttiJaKassapaate/src/main/java/Kassapaate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../osa05-Osa05_10.MaksukorttiJaKassapaate/src/main/java/Kassapaate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../osa05-Osa05_10.MaksukorttiJaKassapaate/src/main/java/Maksukortti.java" beforeDir="false" afterPath="$PROJECT_DIR$/../osa05-Osa05_10.MaksukorttiJaKassapaate/src/main/java/Maksukortti.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../osa05-Osa05_10.MaksukorttiJaKassapaate/src/main/java/Paaohjelma.java" beforeDir="false" afterPath="$PROJECT_DIR$/../osa05-Osa05_10.MaksukorttiJaKassapaate/src/main/java/Paaohjelma.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../osa05-Osa05_10.MaksukorttiJaKassapaate/src/test/java/MaksukorttiJaKassaPaateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../osa05-Osa05_10.MaksukorttiJaKassapaate/src/test/java/MaksukorttiJaKassaPaateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../osa05-Osa05_10.MaksukorttiJaKassapaate/target/classes/Kassapaate.class" beforeDir="false" afterPath="$PROJECT_DIR$/../osa05-Osa05_10.MaksukorttiJaKassapaate/target/classes/Kassapaate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../osa05-Osa05_10.MaksukorttiJaKassapaate/target/classes/Maksukortti.class" beforeDir="false" afterPath="$PROJECT_DIR$/../osa05-Osa05_10.MaksukorttiJaKassapaate/target/classes/Maksukortti.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../osa05-Osa05_10.MaksukorttiJaKassapaate/target/classes/Paaohjelma.class" beforeDir="false" afterPath="$PROJECT_DIR$/../osa05-Osa05_10.MaksukorttiJaKassapaate/target/classes/Paaohjelma.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../osa05-Osa05_10.MaksukorttiJaKassapaate/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../osa05-Osa05_10.MaksukorttiJaKassapaate/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../osa05-Osa05_10.MaksukorttiJaKassapaate/target/stderr.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../osa05-Osa05_10.MaksukorttiJaKassapaate/target/stdout.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../osa05-Osa05_10.MaksukorttiJaKassapaate/target/test-classes/MaksukorttiJaKassaPaateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../osa05-Osa05_10.MaksukorttiJaKassapaate/target/test-classes/MaksukorttiJaKassaPaateTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../osa05-Osa05_15.KerailijanVarasto/target/classes/Esine.class" beforeDir="false" afterPath="$PROJECT_DIR$/../osa05-Osa05_15.KerailijanVarasto/target/classes/Esine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../osa05-Osa05_15.KerailijanVarasto/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../osa05-Osa05_15.KerailijanVarasto/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../osa05-Osa05_15.KerailijanVarasto/target/test-classes/KerailijanVarastoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../osa05-Osa05_15.KerailijanVarasto/target/test-classes/KerailijanVarastoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../osa05-Osa05_17.Raha/target/classes/Paaohjelma.class" beforeDir="false" afterPath="$PROJECT_DIR$/../osa05-Osa05_17.Raha/target/classes/Paaohjelma.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../osa05-Osa05_17.Raha/target/classes/Raha.class" beforeDir="false" afterPath="$PROJECT_DIR$/../osa05-Osa05_17.Raha/target/classes/Raha.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../osa05-Osa05_17.Raha/target/test-classes/RahaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../osa05-Osa05_17.Raha/target/test-classes/RahaTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700754083905</updated>
-      <workItem from="1700754087105" duration="974000" />
+      <workItem from="1700754087105" duration="1787000" />
     </task>
     <servers />
   </component>

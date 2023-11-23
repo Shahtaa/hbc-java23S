@@ -18,6 +18,7 @@ public class MaksukorttiJaKassaPaateTest {
         kortti = new Maksukortti(10);
         kassa = new Kassapaate();
     }
+
     Reflex.ClassRef<Object> klassL;
     String klassNameL = "Maksukortti";
     Reflex.ClassRef<Object> klassK;
@@ -65,15 +66,18 @@ public class MaksukorttiJaKassaPaateTest {
     @Points("05-10.2")
     @Test
     public void kassaAluksiRahaa1000() {
-        assertTrue("Kun kassapääte luodaan pitää rahamäärän muistavan oliomuuttujan arvoksi asettaa 1000. Olion tulostamalla pitäisi näytä että rahaa kassassa on 1000. \n"
-                + "Nyt tulostuu: \"" + kassa + "\"", kassa.toString().contains("kassassa rahaa 1000"));
+        assertTrue(
+                "Kun kassapääte luodaan pitää rahamäärän muistavan oliomuuttujan arvoksi asettaa 1000. Olion tulostamalla pitäisi näytä että rahaa kassassa on 1000. \n"
+                        + "Nyt tulostuu: \"" + kassa + "\"",
+                kassa.toString().contains("kassassa rahaa 1000"));
     }
 
     @Points("05-10.2")
     @Test
     public void alussaRahaa1000JaEiMyytyjaLounaita() {
         String odotettu = "kassassa rahaa 1000.0 edullisia lounaita myyty 0 maukkaita lounaita myyty 0";
-        assertEquals("Kun kassapääte luodaan on rahaa 1000 ja myytyjen lounaiden määrä 0, ", odotettu, kassa.toString());
+        assertEquals("Kun kassapääte luodaan on rahaa 1000 ja myytyjen lounaiden määrä 0, ", odotettu,
+                kassa.toString());
     }
 
     @Points("05-10.2")
@@ -84,11 +88,13 @@ public class MaksukorttiJaKassaPaateTest {
         String virhe = "Ostettaessa käteisellä 4:llä eurolla edullinen lounas (eli kutsuttaessa kassa.syoEdullisesti(4)) ";
         assertEquals(virhe + "pitäisi metodin palauttaa vaihtorahan oikea määrä.", 1.5, vaihto, 0.01);
 
-        assertTrue(virhe + " pitäisi kassassa olevan rahamäärän kasvaa 2.5 eurolla eli olla 1002.5. \nNyt kassa on: " + kassa, kassa.toString().contains("kassassa rahaa 1002.5"));
+        assertTrue(virhe + " pitäisi kassassa olevan rahamäärän kasvaa 2.5 eurolla eli olla 1002.5. \nNyt kassa on: "
+                + kassa, kassa.toString().contains("kassassa rahaa 1002.5"));
 
         assertTrue(virhe + " pitäisi myytyjen edullisten lounaiden määrän olla 1. \n"
                 + "Nyt kassa on: " + kassa, kassa.toString().contains("edullisia lounaita myyty 1"));
-        assertTrue(virhe + " pitäisi myytyjen maukkaiden lounaiden määrän olla edelleen 0. Nyt kassa on: " + kassa, kassa.toString().contains("maukkaita lounaita myyty 0"));
+        assertTrue(virhe + " pitäisi myytyjen maukkaiden lounaiden määrän olla edelleen 0. Nyt kassa on: " + kassa,
+                kassa.toString().contains("maukkaita lounaita myyty 0"));
     }
 
     @Points("05-10.2")
@@ -99,10 +105,16 @@ public class MaksukorttiJaKassaPaateTest {
         String virhe = "Ostettaessa käteisellä 5:llä eurolla maukas lounas (eli kutsuttaessa kassa.syoMaukkaasti(5)) ";
         assertEquals(virhe + "pitäisi metodin palauttaa vaihtorahan oikea määrä.", 0.7, vaihto, 0.01);
 
-        assertTrue(virhe + " pitäisi kassassa olevan rahamäärän kasvaa 4.3 eurolla eli olla 1004.3. \nNyt kassa on: " + kassa, kassa.toString().contains("kassassa rahaa 1004.3") || kassa.toString().contains("kassassa rahaa 1004.299"));
+        assertTrue(
+                virhe + " pitäisi kassassa olevan rahamäärän kasvaa 4.3 eurolla eli olla 1004.3. \nNyt kassa on: "
+                        + kassa,
+                kassa.toString().contains("kassassa rahaa 1004.3")
+                        || kassa.toString().contains("kassassa rahaa 1004.299"));
 
-        assertTrue(virhe + " pitäisi myytyjen maukkaiden lounaiden määrän olla 1. Nyt kassa on: " + kassa, kassa.toString().contains("maukkaita lounaita myyty 1"));
-        assertTrue(virhe + " pitäisi myytyjen edullisten lounaiden määrän olla edelleen 0. Nyt kassa on: " + kassa, kassa.toString().contains("edullisia lounaita myyty 0"));
+        assertTrue(virhe + " pitäisi myytyjen maukkaiden lounaiden määrän olla 1. Nyt kassa on: " + kassa,
+                kassa.toString().contains("maukkaita lounaita myyty 1"));
+        assertTrue(virhe + " pitäisi myytyjen edullisten lounaiden määrän olla edelleen 0. Nyt kassa on: " + kassa,
+                kassa.toString().contains("edullisia lounaita myyty 0"));
     }
 
     @Points("05-10.2")
@@ -113,9 +125,11 @@ public class MaksukorttiJaKassaPaateTest {
         String virhe = "Ostettaessa käteisellä 2.5:llä eurolla edullinen lounas (eli kutsuttaessa kassa.syoEdullisesti(2.5)) ";
         assertEquals(virhe + "kaikki raha kuluu, eli vaihtorahan pitäisi olla 0.", 0, vaihto, 0.01);
 
-        assertTrue(virhe + " pitäisi kassassa olevan rahamäärän kasvaa 2.5 eurolla eli olla 1002.5. Nyt kassa on: " + kassa, kassa.toString().contains("kassassa rahaa 1002.5"));
+        assertTrue(virhe + " pitäisi kassassa olevan rahamäärän kasvaa 2.5 eurolla eli olla 1002.5. Nyt kassa on: "
+                + kassa, kassa.toString().contains("kassassa rahaa 1002.5"));
 
-        assertTrue(virhe + " pitäisi myytyjen edullisten lounaiden määrän olla 1. Nyt kassa on: " + kassa, kassa.toString().contains("edullisia lounaita myyty 1"));
+        assertTrue(virhe + " pitäisi myytyjen edullisten lounaiden määrän olla 1. Nyt kassa on: " + kassa,
+                kassa.toString().contains("edullisia lounaita myyty 1"));
     }
 
     @Points("05-10.2")
@@ -126,7 +140,11 @@ public class MaksukorttiJaKassaPaateTest {
         String virhe = "Ostettaessa käteisellä 4.3:llä eurolla maukas lounas (eli kutsuttaessa kassa.syoMaukkaasti(4.3)) ";
         assertEquals(virhe + "kaikki raha kuluu, eli vaihtorahan pitäisi olla 0.", 0, vaihto, 0.01);
 
-        assertTrue(virhe + " pitäisi kassassa olevan rahamäärän kasvaa 4.3 eurolla eli olla 1004.3- Nyt kassa on: " + kassa, kassa.toString().contains("kassassa rahaa 1004.3") || kassa.toString().contains("kassassa rahaa 1004.299"));
+        assertTrue(
+                virhe + " pitäisi kassassa olevan rahamäärän kasvaa 4.3 eurolla eli olla 1004.3- Nyt kassa on: "
+                        + kassa,
+                kassa.toString().contains("kassassa rahaa 1004.3")
+                        || kassa.toString().contains("kassassa rahaa 1004.299"));
 
         assertTrue(virhe + " pitäisi myytyjen maukkaiden lounaiden määrän olla 1. \n"
                 + "Nyt kassa on: " + kassa, kassa.toString().contains("maukkaita lounaita myyty 1"));
@@ -143,9 +161,13 @@ public class MaksukorttiJaKassaPaateTest {
 
         String virhe = "Operaatioiden kassa.syoMaukkasti(5); kassa.syoEdullisesti(3); kassa.syoMaukkasti(5);"
                 + "kassa.syoMaukkasti(10);kassa.syoEdullisesi(4);";
-        assertTrue(virhe + " jälkeen pitäisi kassassa olevan rahamäärän olla 1017.9 euroa. Nyt kassa on: " + kassa, kassa.toString().contains("kassassa rahaa 1017.899") || kassa.toString().contains("kassassa rahaa 1017.9"));
-        assertTrue(virhe + " jälkeen pitäisi myytyjen maukkaiden lounaiden määrän olla 3. Nyt kassa on: " + kassa, kassa.toString().contains("maukkaita lounaita myyty 3"));
-        assertTrue(virhe + " jälkeen pitäisi myytyjen edullisten lounaiden määrän olla 2. Nyt kassa on: " + kassa, kassa.toString().contains("edullisia lounaita myyty 2"));
+        assertTrue(virhe + " jälkeen pitäisi kassassa olevan rahamäärän olla 1017.9 euroa. Nyt kassa on: " + kassa,
+                kassa.toString().contains("kassassa rahaa 1017.899")
+                        || kassa.toString().contains("kassassa rahaa 1017.9"));
+        assertTrue(virhe + " jälkeen pitäisi myytyjen maukkaiden lounaiden määrän olla 3. Nyt kassa on: " + kassa,
+                kassa.toString().contains("maukkaita lounaita myyty 3"));
+        assertTrue(virhe + " jälkeen pitäisi myytyjen edullisten lounaiden määrän olla 2. Nyt kassa on: " + kassa,
+                kassa.toString().contains("edullisia lounaita myyty 2"));
 
     }
 
@@ -154,14 +176,18 @@ public class MaksukorttiJaKassaPaateTest {
     public void josEiRahaaMyyntiEpaonnistuuEiKassaanKosketa() {
         double paluu = kassa.syoEdullisesti(2);
 
-        assertEquals("Kun yritetään ostaa liian pienellä rahamäärällä eli kassa.syoEdullisesti(2), pitäisi koko raha palauttaa takaisin", 2, paluu, 0.01);
+        assertEquals(
+                "Kun yritetään ostaa liian pienellä rahamäärällä eli kassa.syoEdullisesti(2), pitäisi koko raha palauttaa takaisin",
+                2, paluu, 0.01);
 
         String odotettu = "kassassa rahaa 1000.0 edullisia lounaita myyty 0 maukkaita lounaita myyty 0";
         assertEquals("Kun tyhjästä kassata yritetään ostaa riittämättömällä rahamäärällä edullinen lounas, "
                 + "ei kassan sisältö saisi muuttua eli tulostuksen pitäisi olla: ", odotettu, kassa.toString());
 
         paluu = kassa.syoMaukkaasti(2);
-        assertEquals("Kun yritetään ostaa liian pienellä rahamäärällä eli kassa.syoMaukkaasti(2), pitäisi koko raha palauttaa takaisin", 2, paluu, 0.01);
+        assertEquals(
+                "Kun yritetään ostaa liian pienellä rahamäärällä eli kassa.syoMaukkaasti(2), pitäisi koko raha palauttaa takaisin",
+                2, paluu, 0.01);
 
         odotettu = "kassassa rahaa 1000.0 edullisia lounaita myyty 0 maukkaita lounaita myyty 0";
         assertEquals("Kun tyhjästä kassata yritetään ostaa riittämättömällä rahamäärällä maukas lounas, "
@@ -201,7 +227,8 @@ public class MaksukorttiJaKassaPaateTest {
         String sken = "kassa = new Kassapaate(); kortti = new Maksukortti(10); kassa.syoEdullisesti(kortti);";
         Boolean ok = syoEdullisesti(kassa, kortti);
 
-        assertEquals("Kortilla pitäisi voida ostaa edullinen lounas jos raha riittää. Tarkasta seuraava:\n" + sken, true, ok);
+        assertEquals("Kortilla pitäisi voida ostaa edullinen lounas jos raha riittää. Tarkasta seuraava:\n" + sken,
+                true, ok);
 
         assertEquals("Kortin saldon pitäisi vähetä lounaan hinnan verran. Tarkasta koodi:\n"
                 + sken + " kortti.saldo();\n", 7.5, kortti.saldo(), 0.01);
@@ -218,10 +245,15 @@ public class MaksukorttiJaKassaPaateTest {
         kortti = new Maksukortti(2.5);
         Boolean ok = syoEdullisesti(kassa, kortti);
 
-        assertEquals("Kortilla pitäisi voida ostaa edullinen lounas jos rahaa tasan lounaan hinnan verran. Tarkasta seuraava:\n" + sken + "\n", true, ok);
+        assertEquals(
+                "Kortilla pitäisi voida ostaa edullinen lounas jos rahaa tasan lounaan hinnan verran. Tarkasta seuraava:\n"
+                        + sken + "\n",
+                true, ok);
 
-        assertEquals("Kortin saldo putoaa nollaan jos ostetaan edullinen lounas kun rahaa vaan sen verran. Tarkasta koodi:\n"
-                + sken + " kortti.saldo();\n", 0, kortti.saldo(), 0.01);
+        assertEquals(
+                "Kortin saldo putoaa nollaan jos ostetaan edullinen lounas kun rahaa vaan sen verran. Tarkasta koodi:\n"
+                        + sken + " kortti.saldo();\n",
+                0, kortti.saldo(), 0.01);
 
         String odotettu = "kassassa rahaa 1000.0 edullisia lounaita myyty 1 maukkaita lounaita myyty 0";
         assertEquals("Kun tyhjästä kassata ostetaan kortilla edullinen lounas, kassan rahasumma ei saa muuttua ja"
@@ -289,8 +321,11 @@ public class MaksukorttiJaKassaPaateTest {
         kortti = new Maksukortti(4.3);
         Boolean ok = syoMaukkaasti(kassa, kortti);
 
-        assertEquals("Kortilla pitäisi voida ostaa maukas lounas jos rahaa tasan lounaan hinnan verran. Tarkasta seuraava: " + sken
-                + "\n", true, ok);
+        assertEquals(
+                "Kortilla pitäisi voida ostaa maukas lounas jos rahaa tasan lounaan hinnan verran. Tarkasta seuraava: "
+                        + sken
+                        + "\n",
+                true, ok);
 
         assertEquals("Kortin saldo putoaa nollaan jos ostetaan maukas lounas kun rahaa vaan sen verran. Tarkasta koodi "
                 + sken + " kortti.saldo();\n", 0, kortti.saldo(), 0.01);
@@ -334,7 +369,8 @@ public class MaksukorttiJaKassaPaateTest {
 
         Kassapaate k = new Kassapaate();
 
-        assertTrue("tee luokalle " + klassNameK + " metodi public void " + metodi + "(Maksukortti kortti, double summa) ",
+        assertTrue(
+                "tee luokalle " + klassNameK + " metodi public void " + metodi + "(Maksukortti kortti, double summa) ",
                 klassK.method(k, metodi).returningVoid().taking(Maksukortti.class, double.class).isPublic());
 
         String v = "\nVirheen aiheuttanut koodi "
@@ -342,9 +378,10 @@ public class MaksukorttiJaKassaPaateTest {
 
         Maksukortti lk = new Maksukortti(10);
 
-        klassK.method(k, metodi).returningVoid().taking(Maksukortti.class, double.class).withNiceError(v).invoke(lk, 5.0);
+        klassK.method(k, metodi).returningVoid().taking(Maksukortti.class, double.class).withNiceError(v).invoke(lk,
+                5.0);
     }
-    
+
     @Points("05-10.4")
     @Test
     public void lataaminenKasvattaaKortinSaldoa() {
@@ -373,8 +410,8 @@ public class MaksukorttiJaKassaPaateTest {
                 + "Alussa kassassa siis 1000, kun kortille ladataan -10"
                 + " pitäisi kassan tulostuksen olla: \n", odotettu, kassa.toString());
 
-    }    
-    
+    }
+
     @Points("05-10.4")
     @Test
     public void moniLatausToimii() {
@@ -410,7 +447,8 @@ public class MaksukorttiJaKassaPaateTest {
     private void lataa(Object kassa, Object kortti, double summa) {
         String metodiNimi = "lataaRahaaKortille";
         try {
-            Method metodi = ReflectionUtils.requireMethod(Kassapaate.class, metodiNimi, Maksukortti.class, double.class);
+            Method metodi = ReflectionUtils.requireMethod(Kassapaate.class, metodiNimi, Maksukortti.class,
+                    double.class);
             ReflectionUtils.invokeMethod(void.class, metodi, kassa, kortti, summa);
         } catch (Throwable t) {
             t.printStackTrace();
@@ -450,8 +488,11 @@ public class MaksukorttiJaKassaPaateTest {
                 + " private static final double EDULLISEN_HINTA = 2.5; ";
 
         for (Field field : kentat) {
-            assertFalse("et tarvitse \"stattisia muuttujia\", poista " + kentta(field.toString()) + viesti, field.toString().contains("static") && !field.toString().contains("final"));
-            assertTrue("luokan kaikkien oliomuuttujien näkyvyyden tulee olla private, muuta " + kentta(field.toString()) + viesti,
+            assertFalse("et tarvitse \"stattisia muuttujia\", poista " + kentta(field.toString()) + viesti,
+                    field.toString().contains("static") && !field.toString().contains("final"));
+            assertTrue(
+                    "luokan kaikkien oliomuuttujien näkyvyyden tulee olla private, muuta " + kentta(field.toString())
+                            + viesti,
                     field.toString().contains("private"));
         }
 

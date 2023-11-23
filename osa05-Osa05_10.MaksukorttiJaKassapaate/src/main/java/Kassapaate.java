@@ -44,7 +44,9 @@ public class Kassapaate {
         // jos kortilla on tarpeeksi rahaa, vähennetään hinta kortilta ja palautetaan
         // true
         // muuten palautetaan false
-        if (this.rahaa >= kortti.saldo()) {
+        if (kortti.saldo() >= 2.50) {
+            kortti.otaRahaa(2.5);
+            edulliset++;
             return true;
         }
         return false;
@@ -55,11 +57,20 @@ public class Kassapaate {
         // jos kortilla on tarpeeksi rahaa, vähennetään hinta kortilta ja palautetaan
         // true
         // muuten palautetaan false
-        if (kortti.saldo() >= this.rahaa) {
-            this.rahaa -= maukkaat;
+        if (kortti.saldo() >= 4.3) {
+            kortti.otaRahaa(4.3);
+            maukkaat++;
             return true;
         }
         return false;
+    }
+
+    public void lataaRahaaKortille(Maksukortti kortti, double summa) {
+        if (summa > 0) {
+            kortti.lataaRahaa(summa);
+            this.rahaa += summa;
+        }
+
     }
 
     @Override
