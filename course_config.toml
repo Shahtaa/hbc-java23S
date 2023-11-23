@@ -655,3 +655,35 @@ checksum = "0aba566a15071b980cc095a738ef9a29"
 [exercises."osa06-Osa06_13.Tehtavat"]
 id = 223827
 checksum = "95e593366e09ede9ee92022d164f8cf3"
+
+[exercises."osa07-Osa07_01.Nestesailiot"]
+id = 223727
+checksum = "b32f2b60181296bfb225dd87c6e7ca30"
+
+[exercises."osa07-Osa07_02.NestesailiotOlioilla"]
+id = 223733
+checksum = "6f6538df8cb059c8583ac1997dd21a14"
+
+[exercises."osa07-Osa07_03.Jarjestaminen"]
+id = 223730
+checksum = "175cdbf2c0bda86f493368965abae0cb"
+
+[exercises."osa07-Osa07_04.ValmiitJarjestamisalgoritmit"]
+id = 223729
+checksum = "de954c03b7a65688fa5f9d1b71bc43ed"
+
+[exercises."osa07-Osa07_05.Hakemista"]
+id = 223731
+checksum = "a89f943648fa874d31abbee7d3a8a448"
+
+[exercises."osa07-Osa07_06.Arvosanatilastot"]
+id = 223728
+checksum = "88f49fb29f79064f2947144c68b2e849"
+
+[exercises."osa07-Osa07_07.Reseptihaku"]
+id = 223732
+checksum = "1e6dca31ad69046f1bdb4e15c980260f"
+
+[exercises."osa07-Osa07_08.LintubongarinTietokanta"]
+id = 223726
+checksum = "9208345ee7f4511e37191e6f1624e8ee"
