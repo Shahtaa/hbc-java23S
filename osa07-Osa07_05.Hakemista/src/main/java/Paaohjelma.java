@@ -3,7 +3,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.List;
 import java.util.Scanner;
+import java.util.stream.Collectors;
 
 public class Paaohjelma {
 
@@ -11,6 +13,7 @@ public class Paaohjelma {
         // Alla on ohjelma tehtävässä toteuttamiesi hakualgoritmien testaamiseen.
         Scanner lukija = new Scanner(System.in);
         ArrayList<Kirja> kirjat = new ArrayList<>();
+
         System.out.println("Kuinka monta kirjaa luodaan?");
         int kirjoja = Integer.valueOf(lukija.nextLine());
         for (int i = 0; i < kirjoja; i++) {
@@ -58,6 +61,24 @@ public class Paaohjelma {
     }
 
     public static int binaarihaku(ArrayList<Kirja> kirjat, long haettavaId) {
+        int left = 0, right = kirjat.size() - 1;
+
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            long midId = kirjat.get(mid).getId();
+            if (midId == haettavaId) {
+                return mid;
+
+            }
+            if (midId < haettavaId) {
+                left = mid + 1;
+            } else {
+                right = mid - 1;
+            }
+        }
         return -1;
+        // if we reach here, then element was
+        // not present
+
     }
 }
