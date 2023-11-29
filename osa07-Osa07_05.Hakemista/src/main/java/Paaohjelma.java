@@ -1,5 +1,8 @@
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class Paaohjelma {
@@ -44,6 +47,13 @@ public class Paaohjelma {
     }
 
     public static int perakkaishaku(ArrayList<Kirja> kirjat, int haettavaId) {
+
+        for (Kirja kirja : kirjat) {
+            if (kirja.getId() == haettavaId) {
+                return kirjat.indexOf(kirja);
+            }
+        }
+
         return -1;
     }
 
@@ -51,4 +61,3 @@ public class Paaohjelma {
         return -1;
     }
 }
-
