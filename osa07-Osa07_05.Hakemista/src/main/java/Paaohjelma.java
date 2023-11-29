@@ -65,7 +65,7 @@ public class Paaohjelma {
 
         while (left <= right) {
             int mid = left + (right - left) / 2;
-            long midId = kirjat.get(mid).getId();
+            int midId = kirjat.get(mid).getId();
             if (midId == haettavaId) {
                 return mid;
 
