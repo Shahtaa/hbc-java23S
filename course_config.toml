@@ -687,3 +687,63 @@ checksum = "1e6dca31ad69046f1bdb4e15c980260f"
 [exercises."osa07-Osa07_08.LintubongarinTietokanta"]
 id = 223726
 checksum = "9208345ee7f4511e37191e6f1624e8ee"
+
+[exercises."osa08-Osa08_01.Kuutiot"]
+id = 223747
+checksum = "582c3b0d0f5db365c1c946a5b484bff5"
+
+[exercises."osa08-Osa08_02.PositiivistenLukujenKeskiarvo"]
+id = 223743
+checksum = "2cc472466ff9d1e68bc8821c55442720"
+
+[exercises."osa08-Osa08_03.Nestesailiot"]
+id = 223734
+checksum = "d42fe1cfcf3b10b12765ee7d8634f353"
+
+[exercises."osa08-Osa08_04.NestesailiotOlioilla"]
+id = 223745
+checksum = "e26ffcb372b74136226a3bcc7c14e5b8"
+
+[exercises."osa08-Osa08_05.Tehtavalista"]
+id = 223736
+checksum = "695093f0a9c357db90bc55723a58af0f"
+
+[exercises."osa08-Osa08_06.Lempinimet"]
+id = 223740
+checksum = "74639e2510485637342ee092a0e3cfa3"
+
+[exercises."osa08-Osa08_07.Lyhenteet"]
+id = 223739
+checksum = "f22f7947862c992743aec9dfacb7515a"
+
+[exercises."osa08-Osa08_08.HajautustaulunTulostelua"]
+id = 223735
+checksum = "10741216eea9dd9f8e67dfd632bd920e"
+
+[exercises."osa08-Osa08_09.HajautustaulunTulostelua2"]
+id = 223746
+checksum = "0686be338067da38e56c4bbb22f8946a"
+
+[exercises."osa08-Osa08_10.Velkakirja"]
+id = 223748
+checksum = "d3eabb7aad5a1746e198fd721c0b68ed"
+
+[exercises."osa08-Osa08_11.SamaPaivays"]
+id = 223742
+checksum = "d5a3fc080da3ad23a1db85973c034d50"
+
+[exercises."osa08-Osa08_12.HajautusarvoPaivaykselle"]
+id = 223741
+checksum = "e677d39aed0b2cd7511178285995a716"
+
+[exercises."osa08-Osa08_13.Autorekisterikeskus"]
+id = 223744
+checksum = "85a6d1b9a14029e75605a3bc2f8eb9e4"
+
+[exercises."osa08-Osa08_14.UseanKaannoksenSanakirja"]
+id = 223738
+checksum = "5d2dcb773c3203027d4c0f1f019a83f1"
+
+[exercises."osa08-Osa08_15.Kellari"]
+id = 223737
+checksum = "ed0ff38c6d6e6e9e328ee066fcafd584"
