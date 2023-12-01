@@ -1,3 +1,4 @@
+import java.util.Objects;
 
 public class Paivays {
 
@@ -33,6 +34,19 @@ public class Paivays {
         }
 
         return false;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Paivays paivays = (Paivays) o;
+        return paiva == paivays.paiva && kuukausi == paivays.kuukausi && vuosi == paivays.vuosi;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(paiva, kuukausi, vuosi);
     }
 
     public int erotusVuosissa(Paivays verrattava) {
