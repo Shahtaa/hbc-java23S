@@ -38,8 +38,10 @@ public class Paivays {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        if (this == o)
+            return true;
+        if (o == null || getClass() != o.getClass())
+            return false;
         Paivays paivays = (Paivays) o;
         return paiva == paivays.paiva && kuukausi == paivays.kuukausi && vuosi == paivays.vuosi;
     }

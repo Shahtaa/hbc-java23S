@@ -11,6 +11,20 @@ public class Paivays {
         this.vuosi = vuosi;
     }
 
+    public int hashCode() {
+        return (this.paiva + "." + this.kuukausi + "." + this.vuosi).hashCode();
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o)
+            return true;
+        if (o == null || getClass() != o.getClass())
+            return false;
+        Paivays paivays = (Paivays) o;
+        return paiva == paivays.paiva && kuukausi == paivays.kuukausi && vuosi == paivays.vuosi;
+    }
+
     @Override
     public String toString() {
         return this.paiva + "." + this.kuukausi + "." + this.vuosi;
