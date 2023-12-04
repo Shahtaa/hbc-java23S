@@ -1,4 +1,3 @@
-
 public class Paivays {
 
     private int paiva;
@@ -9,20 +8,6 @@ public class Paivays {
         this.paiva = paiva;
         this.kuukausi = kuukausi;
         this.vuosi = vuosi;
-    }
-
-    public int hashCode() {
-        return (this.paiva + "." + this.kuukausi + "." + this.vuosi).hashCode();
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o)
-            return true;
-        if (o == null || getClass() != o.getClass())
-            return false;
-        Paivays paivays = (Paivays) o;
-        return paiva == paivays.paiva && kuukausi == paivays.kuukausi && vuosi == paivays.vuosi;
     }
 
     @Override
@@ -65,4 +50,33 @@ public class Paivays {
         return this.vuosi - verrattava.vuosi - vuosiPois;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Paivays other = (Paivays) obj;
+        if (this.paiva != other.paiva) {
+            return false;
+        }
+        if (this.kuukausi != other.kuukausi) {
+            return false;
+        }
+        if (this.vuosi != other.vuosi) {
+            return false;
+        }
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 5;
+        hash = 19 * hash + this.paiva;
+        hash = 19 * hash + this.kuukausi;
+        hash = 19 * hash + this.vuosi;
+        return hash;
+    }
 }
