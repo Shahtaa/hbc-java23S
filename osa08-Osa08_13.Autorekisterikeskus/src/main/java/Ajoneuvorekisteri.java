@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Ajoneuvorekisteri {
@@ -37,10 +38,22 @@ public class Ajoneuvorekisteri {
     }
 
     public void tulostaRekisterinumerot() {
+        for (Rekisterinumero avain : omistajat.keySet()) {
 
+            System.out.println(avain);
+        }
     }
 
     public void tulostaOmistajat() {
 
+        ArrayList<String> nimet = new ArrayList();
+        for (String value : omistajat.values()) {
+            if (!nimet.contains(value)) {
+                nimet.add(value);
+            }
+        }
+        for (String nimi : nimet) {
+            System.out.println(nimi);
+        }
     }
 }
