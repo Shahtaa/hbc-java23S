@@ -747,3 +747,51 @@ checksum = "5d2dcb773c3203027d4c0f1f019a83f1"
 [exercises."osa08-Osa08_15.Kellari"]
 id = 223737
 checksum = "ed0ff38c6d6e6e9e328ee066fcafd584"
+
+[exercises."osa09-Osa09_01.ABC"]
+id = 223715
+checksum = "d92d2e925077e4f00b3337f877bd3679"
+
+[exercises."osa09-Osa09_02.HenkiloJaPerilliset"]
+id = 223718
+checksum = "5152b08c8cb2da38b3ca9b874cd6f4ec"
+
+[exercises."osa09-Osa09_03.Varastointia"]
+id = 223724
+checksum = "0b60c8a93469c2c0fce3c08a5d85ca02"
+
+[exercises."osa09-Osa09_04.ErilaisiaLaatikoita"]
+id = 223725
+checksum = "bf7c531f1f3f0e066d623e3aca61372e"
+
+[exercises."osa09-Osa09_05.Palvelusvelvollinen"]
+id = 223717
+checksum = "187ba95442cb787efb6fbba6d4c24a55"
+
+[exercises."osa09-Osa09_06.TavaroitaJaLaatikoita"]
+id = 223723
+checksum = "8078c0c084f350d77a1b903a9c3fb619"
+
+[exercises."osa09-Osa09_07.ListMetodinParametrina"]
+id = 223714
+checksum = "f91a83dc5e528bdde0bd08acb7d69e3b"
+
+[exercises."osa09-Osa09_08.MapMetodinParametrina"]
+id = 223721
+checksum = "f50f7619776a57f109a7f79a0935d5f7"
+
+[exercises."osa09-Osa09_09.SetMetodinParametrina"]
+id = 223719
+checksum = "792b0e2e2f2430874332ff5a100906f5"
+
+[exercises."osa09-Osa09_10.Verkkokauppa"]
+id = 223716
+checksum = "db3b1f1c56f5da8a2d0f88601a1c77ae"
+
+[exercises."osa09-Osa09_11.Joukkoja"]
+id = 223720
+checksum = "efdb7d0000ee43cec45e2e414c292bd3"
+
+[exercises."osa09-Osa09_12.Elaimia"]
+id = 223722
+checksum = "d3d1dcfdd0774029468e0633f116aa95"
