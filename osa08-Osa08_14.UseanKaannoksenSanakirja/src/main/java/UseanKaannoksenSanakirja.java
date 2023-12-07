@@ -19,11 +19,10 @@ public class UseanKaannoksenSanakirja {
 
     public ArrayList<String> kaanna(String sana) {
 
-        if (!(sanat.containsKey(sana))) {
-            return new ArrayList<>();
-        }
+        // return sanat.get(sana);
 
-        return sanat.get(sana);
+        return sanat.containsKey(sana) ? sanat.get(sana) : new ArrayList<String>();
+
     }
 
     public void poista(String sana) {
