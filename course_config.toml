@@ -795,3 +795,71 @@ checksum = "efdb7d0000ee43cec45e2e414c292bd3"
 [exercises."osa09-Osa09_12.Elaimia"]
 id = 223722
 checksum = "d3d1dcfdd0774029468e0633f116aa95"
+
+[exercises."osa10-Osa10_01.LukujenKeskiarvo"]
+id = 223655
+checksum = "733a437573acecb6e1d7e3f80536f0e8"
+
+[exercises."osa10-Osa10_02.TiettyjenLukujenKeskiarvo"]
+id = 223654
+checksum = "cd8ff55186129c8b40f6bb3004b91409"
+
+[exercises."osa10-Osa10_03.PositiivisetLuvut"]
+id = 223651
+checksum = "b673434d126e001949f81c899019c4b0"
+
+[exercises."osa10-Osa10_04.Jaolliset"]
+id = 223662
+checksum = "a600ddf84ea9c16c8a226807efb31ea5"
+
+[exercises."osa10-Osa10_05.LuettujenArvojenTulostaminen"]
+id = 223649
+checksum = "f01fa5eea18c806355f2d2b4c5aaacdb"
+
+[exercises."osa10-Osa10_06.RajatutLuvut"]
+id = 223658
+checksum = "37678bd7e15523508ff691147ade185f"
+
+[exercises."osa10-Osa10_07.UniikitSukunimet"]
+id = 223661
+checksum = "3b0f7232f016b1d5014fc7505823d716"
+
+[exercises."osa10-Osa10_08.PainonLaskemista"]
+id = 223659
+checksum = "a84dfcc0f9d854a5ca362adff36ae802"
+
+[exercises."osa10-Osa10_09.TiedostonRivit"]
+id = 223647
+checksum = "3fb86deeeadc881bd9a2900ac4190334"
+
+[exercises."osa10-Osa10_10.KirjatTiedostosta"]
+id = 223652
+checksum = "aa29cd7031772277bfa53314bf0c9513"
+
+[exercises."osa10-Osa10_11.Palkkajarjestys"]
+id = 223657
+checksum = "96d825f1c75833b2288580b6be744815"
+
+[exercises."osa10-Osa10_12.OpiskelijatNimijarjestykseen"]
+id = 223650
+checksum = "9dd1bd0efa379d0b42196e3b351991ed"
+
+[exercises."osa10-Osa10_13.Lukutaitovertailu"]
+id = 223656
+checksum = "a7a66203eb02c1b2408f0249294e3965"
+
+[exercises."osa10-Osa10_14.Kirjallisuutta"]
+id = 223653
+checksum = "33f91acd33374b219cd590a9571dc0e6"
+
+[exercises."osa10-Osa10_15.SaannollisetLausekkeet"]
+id = 223646
+checksum = "8c479e8e53618023faacfb32ca76e79e"
+
+[exercises."osa10-Osa10_16.EnumJaIteraattori"]
+id = 223648
+checksum = "6242b2d0ee7f4b8aacc9b66fbad298fb"
+
+[exercises."osa10-Osa10_17.KortitOjennukseen"]
+id = 223660
+checksum = "cd48f3ace91eb56bbc2628d0b3cb7769"
